@@ -66,8 +66,9 @@ function scanSubdirectories(directory) {
   fs.readdirSync(directory).forEach(file => {
     const fullPath = path.join(directory, file)
     const stats = fs.statSync(fullPath)
-    if (stats.isDirectory()) {
-      subdirectories.push(file)
+    if (stats.isDirectory()
+       && !["starter","landing","commerce","movie","magzine","game","medium","nav","plog"].includes(file)) {
+      subdirectories.push(file);
     }
 
     // subdirectories.push(file)
