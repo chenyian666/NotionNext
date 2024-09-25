@@ -60,7 +60,7 @@ const BlogPostCard = ({ post, index, showSummary }) => {
                 </>
               )}
               <Link
-                href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM-dd hh:mm:ss')}`}
+                href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM-dd hh:mm')}`}
                 passHref
                 className='hover:text-blue-500 dark:hover:text-blue-400 font-light cursor-pointer text-sm leading-4 mr-3'>
                 <span className='menu-link'>{post.date?.start_date}</span>

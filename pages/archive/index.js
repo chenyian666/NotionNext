@@ -48,7 +48,7 @@ export async function getStaticProps({ locale }) {
   const archivePosts = {}
 
   postsSortByDate.forEach(post => {
-    const date = formatDateFmt(post.publishDate, 'yyyy-MM-dd hh:mm:ss')
+    const date = formatDateFmt(post.publishDate, 'yyyy-MM-dd hh:mm')
     if (archivePosts[date]) {
       archivePosts[date].push(post)
     } else {
