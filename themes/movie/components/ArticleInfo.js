@@ -12,7 +12,7 @@ export const ArticleInfo = props => {
 
       <div className='flex gap-3 font-semibold text-sm items-center justify-center'>
         <Link
-          href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM-dd hh:mm')}`}
+          href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
           passHref
           className='pl-1 mr-2 cursor-pointer'>
           {post?.publishDay}

@@ -69,7 +69,7 @@ export default function ArticleDetail(props) {
               {post?.type !== 'Page' && (
                 <>
                   <Link
-                    href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM-dd hh:mm')}`}
+                    href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
                     passHref
                     className='pl-1 mr-2 cursor-pointer hover:text-gray-700 dark:hover:text-gray-200 border-b dark:border-gray-500 border-dashed'>
                     {post?.publishDay}

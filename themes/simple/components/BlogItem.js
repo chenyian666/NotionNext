@@ -62,7 +62,7 @@ export const BlogItem = props => {
               <span>
                 <Link
                   className='p-1 hover:text-red-400 transition-all duration-200'
-                  href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM-dd hh:mm')}`}>
+                  href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}>
                   <i className='fa-regular fa-clock' />{' '}
                   {post.date?.start_date || post.createdTime}
                 </Link>
