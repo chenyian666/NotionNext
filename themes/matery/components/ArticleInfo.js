@@ -24,7 +24,7 @@ export const ArticleInfo = (props) => {
             <div className='flex flex-wrap gap-3 mt-5 text-sm'>
                 {post?.type !== 'Page' && (<>
                     <Link
-                        href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
+                        href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM-dd hh:mm:ss')}`}
                         passHref
                         className="cursor-pointer whitespace-nowrap">
 

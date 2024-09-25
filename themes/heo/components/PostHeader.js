@@ -110,7 +110,7 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
               {post?.type !== 'Page' && (
                 <>
                   <Link
-                    href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
+                    href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM-dd hh:mm:ss')}`}
                     passHref
                     className='pl-1 mr-2 cursor-pointer hover:underline'>
                     <i className='fa-regular fa-calendar'></i>{' '}

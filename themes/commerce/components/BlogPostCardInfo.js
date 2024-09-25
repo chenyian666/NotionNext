@@ -71,7 +71,7 @@ export const BlogPostCardInfo = ({ post, showPreview, showPageCover, showSummary
          <div className="text-gray-400 justify-between flex">
             {/* 日期 */}
             <Link
-                href={`/archive#${formatDate(post?.publishDate, 'yyyy-MM')}`}
+                href={`/archive#${formatDate(post?.publishDate, 'yyyy-MM-dd hh:mm:ss')}`}
                 passHref
                 className="font-light menu-link cursor-pointer text-sm leading-4 mr-3">
 

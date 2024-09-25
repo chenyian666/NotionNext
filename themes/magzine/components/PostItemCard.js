@@ -51,7 +51,7 @@ const PostItemCard = ({ post }) => {
         </Link>
 
         <div className='text-sm'>
-          {formatDateFmt(post.publishDate, 'yyyy-MM')}
+          {formatDateFmt(post.publishDate, 'yyyy-MM-dd hh:mm:ss')}
         </div>
       </div>
     </div>
