@@ -23,7 +23,8 @@ const CONFIG = {
   HEO_HERO_TITLE_3: 'yian.vercel.app',
   HEO_HERO_TITLE_4: '新浪潮',
   HEO_HERO_TITLE_5: '大航海时代来袭',
-  HEO_HERO_TITLE_6: 'AI与BlockChain 谁是真正的弄潮儿',
+  HEO_HERO_TITLE_6: 'AI与BlockChain 谁才是真正的弄潮儿',
+  HEO_HERO_TITLE_7: '谁才是真正的弄潮儿',
   HEO_HERO_TITLE_LINK: 'https://yian.vercel.app',
 
   // 英雄区显示三个置顶分类
